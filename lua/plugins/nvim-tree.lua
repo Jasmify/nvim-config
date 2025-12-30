@@ -13,6 +13,19 @@ return {
         width = 35,
         relativenumber = true,
       },
+      -- LSPの警告・エラー表示
+      diagnostics = {
+        enable = true,
+        show_on_dirs = true,
+        show_on_open_dirs = true,
+        debounce_delay = 50,
+        icons = {
+          hint = "💡",
+          info = "ℹ️",
+          warning = "⚠️",
+          error = "❌",
+        },
+      },
       -- change folder arrow icons
       renderer = {
         indent_markers = {

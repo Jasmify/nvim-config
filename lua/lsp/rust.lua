@@ -15,8 +15,12 @@ vim.lsp.config("rust_analyzer", {
             },
             inlayHints = {
                 typeHints = true,
-                parameterHints = true,
+                parameterHints = false,
                 chainingHints = true,
+            },
+            completion = {
+                autoimport = false,
+                autoImportCompletions = false,
             },
         },
     },

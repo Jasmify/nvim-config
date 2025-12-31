@@ -39,7 +39,7 @@ opt.splitright = true         -- 縦分割したとき右に開く
 opt.clipboard = "unnamedplus" -- システムのクリップボードと連携
 
 -- 入力時の補完
-opt.completeopt = { "menu", "menuone", "noselect" }
+opt.completeopt = { "menu", "menuone", "noselect", "noinsert" }
 
 -- ファイルエンコーディング
 opt.encoding = "utf-8"

@@ -21,6 +21,7 @@ return {
 
       cmp.setup({
         completion = {
+          preselect = cmp.PreselectMode.None,
           keyword_length = 2,
         },
         snippet = {
@@ -49,7 +50,7 @@ return {
             end
           end, {"i", "s"}),
 
-          ["<CR>"] = cmp.mapping.confirm({ select = true }),
+          ["<CR>"] = cmp.mapping.confirm({ select = false }),
           ["<C-Space>"] = cmp.mapping.complete(),
         }),
         sources = cmp.config.sources({

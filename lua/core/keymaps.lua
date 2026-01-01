@@ -34,4 +34,4 @@ keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer
 -- Diffview
 keymap.set("n", "<leader>mf", ":DiffviewFileHistory %<CR>", { desc = "Diffview File History" })
 keymap.set("n", "<leader>mo", ":DiffviewOpen<CR>", { desc = "Diffview Open" })
-keymap.set("n", "<leader>mc", ":DiffviewClose<CR>", { desc = "Diffview Close" })
+keymap.set("n", "<leader>mx", ":DiffviewClose<CR>", { desc = "Diffview Close" })

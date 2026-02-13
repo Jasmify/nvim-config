@@ -1,4 +1,5 @@
 require("lsp.rust")
 require("lsp.svelte")
 require("lsp.tailwind")
+require("lsp.go")
 require("lsp.keymaps")

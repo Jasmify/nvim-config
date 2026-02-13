@@ -12,6 +12,7 @@ return {
                 "rust_analyzer",
                 "svelte",
                 "tailwindcss",
+                "gopls",
             },
         })
     end,

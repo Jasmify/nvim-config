@@ -4,6 +4,10 @@ local opt = vim.opt
 -- 補完候補の最大表示数
 opt.pumheight = 10
 
+-- Spell check
+opt.spell = true
+opt.spelllang = "en_us,cjk"
+
 -- 行番号を表示
 opt.number = true             -- 現在の行の番号を表示
 opt.relativenumber = true     -- 現在行以外は相対行番号にする（移動がしやすい）
